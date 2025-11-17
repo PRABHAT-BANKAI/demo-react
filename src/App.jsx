@@ -5,6 +5,7 @@ import { Route, Routes } from "react-router";
 const App = () => {
   return (
     <div>
+      
       <Navbar />
       <Routes>
         <Route path="/" element={<h1>Home Page</h1>} />
